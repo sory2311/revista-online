@@ -1,0 +1,15 @@
+/* * {
+    box-sizing: border-box;
+}*/
+
+body {
+    font-family: monospace;
+    margin:40px;
+    @include respond-to('small') {
+      margin:10px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+  }

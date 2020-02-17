@@ -1,0 +1,38 @@
+.columna1 {
+  width: 75%;
+
+  @include respond-to('small') {
+    width: 100%;
+  }
+}
+.columna2 {
+  width: 25%;
+  @include respond-to('small') {
+    width: 50%;
+    display: none;
+  }
+}
+
+
+.contenido {
+display: -webkit-flex;
+display: flex;
+-webkit-flex-flow: row wrap;
+flex-flow: row wrap;
+}
+
+
+
+.newsletter {
+  background-color: #EAECF1;
+  text-align: center;
+  margin: 10px;
+}
+
+.noticia__titulo{
+  font-weight: bold;
+}
+
+.newsletter__titulo{
+  font-weight: bold;
+}

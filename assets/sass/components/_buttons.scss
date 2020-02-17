@@ -1,0 +1,43 @@
+.tags {
+        border-bottom: 1px solid gray;
+
+        ul {
+
+            padding: 0;
+            list-style: none;
+
+
+            li {
+
+                padding: 2px 4px;
+                background-color: steelblue;
+                margin-right: 1px;
+                color: white;
+                display: inline;
+            }
+          }
+        }
+
+.input-menu{
+  border-radius: 50px;
+  @include respond-to('small') {
+    width: 45%;
+  }
+}
+          .group-bottom {
+                    display: inline-block;
+                    border-width: 0;
+                    font-size: 13px;
+                    padding: 5px 10px;
+                    margin-left: 3px;
+
+                    input{
+                        border-color: white;
+                    }
+
+                    button {
+                      background-color: coral;
+                      color: white;
+                      border-color: coral;
+                    }
+                }

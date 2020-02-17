@@ -1,0 +1,40 @@
+.naveg {
+display: inline-block;
+width: 90%!important;
+height: auto;
+text-align: right;
+text-transform: uppercase;
+text-decoration: none;
+padding: 10px;
+  @include respond-to('small') {
+    width: 10%!important;
+    display: none;
+  }
+}
+
+.logo{
+  font-size: 1.5rem;
+  display: inline;
+  font-weight: bold;
+}
+
+.naveg li{
+   display: inline;
+   margin-right: 1em;
+  padding-left: 1em;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+    text-decoration: none;
+    color: #5846D6;
+    font-weight: bold;
+}
+
+.naveg__mobile{
+  margin-top: -30px;
+  width: 250px;
+  margin-left: 100px;
+  @include respond-to('medium') {
+    display: none;
+  }
+}
